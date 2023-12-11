@@ -1,0 +1,29 @@
+C:\Users\new>E:
+
+E:\>cd work
+
+E:\work>django-admin startproject demo
+
+E:\work>cd demo
+
+E:\work\demo>django-admin startapp sample
+
+E:\work\demo>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 11, 2023 - 20:25:39
+Django version 4.2.5, using settings 'demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+
+E:\work\demo>python manage.py makemigrations
+No change detected
+
+E:\work\demo>python manage.py migrate
+E:\work\demo>python manage.py runserver
